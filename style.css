@@ -37,10 +37,6 @@ ul li a{
     line-height: 1;
 
 }
-.container1{
-    display: flex;
-}
-
 
 h4{
     color: rgb(255, 78, 178);
@@ -62,13 +58,28 @@ p{
     height: 300px;
 }
 
-
+.middle{
+    border-radius: 25px;
+    height: 200px;
+    background-image: url(assets/background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner{
+    font-size: 30px;
+}
 
 
 
 @media (max-width: 896px) {
     .menu {
       display: none !important;
+    }
+    .middle {
+        border-radius: 0%;
+
     }
   }
 
