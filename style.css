@@ -2,7 +2,50 @@
     font-family: 'Roboto Flex', sans-serif;
 }
 
-ul li{
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{ 
+    margin: 20px;
+}
+
+.menu{
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+    
+}
+
+ul li a{
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    margin: 10px;
+}
+.signup{
+    color: rgb(255, 78, 178);
+}
+.bars{
+    margin: 20px;
+}
+
+
+
+@media (max-width: 896px) {
+    .menu {
+      display: none !important;
+    }
+  }
+
+@media (min-width:896px) {
+    .bars{
+        display: none !important;
+    }
+    .logo{
+        margin: 35px;
+    }
 
 }
