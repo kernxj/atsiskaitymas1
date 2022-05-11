@@ -1,9 +1,9 @@
 *{
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav{
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     align-items: center;
 }
@@ -33,6 +33,38 @@ ul li a{
 }
 
 
+.textbook1{ 
+    line-height: 1;
+
+}
+.container1{
+    display: flex;
+}
+
+
+h4{
+    color: rgb(255, 78, 178);
+    font-weight: 400; 
+}
+
+.headline{
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+p{
+    font-weight:200;
+    color: rgb(70, 70, 70);
+}
+
+.illustration{
+    height: 300px;
+}
+
+
+
+
 
 @media (max-width: 896px) {
     .menu {
@@ -47,5 +79,6 @@ ul li a{
     .logo{
         margin: 35px;
     }
+    
 
 }
