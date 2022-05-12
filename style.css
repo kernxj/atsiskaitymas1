@@ -68,6 +68,15 @@ p.missout{
     color: rgb(70, 70, 70);
     font-size: 12px;
 }
+.button{
+    width:120px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin:10px 0 0 10px;
+    border: 3px solid palevioletred;
+    border-radius: 43%;
+
+}
 
 .illustration{
     height: 300px;
@@ -98,18 +107,18 @@ p.missout{
 
 
 .brands{
-    margin: 20px 0 0 0;
+    margin: 30px 0 0 15px;
     padding: 20px;
     max-width: 896px;
     overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
 
 }
-img.brands{
-    max-width: 50px;
+.textbooknft{
+    margin: 30px 0 30px 15px;
 }
-
 h3{
     margin: 0 0 0 15px;
     font-size: 30px;
@@ -128,8 +137,8 @@ h3{
  
 }
 .nft{
-    
-    margin: 10px;
+    color:rgb(119, 120, 120);
+    margin: 50px 0 70px 20px;
     border-radius: 7%;
     background-color: rgb(209, 209, 209);
     width: 290px;
@@ -139,15 +148,23 @@ h3{
     padding: 10px;
     width: 100%;
     text-align:justify
+   
     
 }
 .gs{
     color: rgb(250, 150, 0);
     font-weight: 300;
 }
+.tb{
+    font-weight: 300;
+
+}
+.vidurine{
+    color: black;
+}
 
 .container2{
-    margin: 70px 0px 32px 20px;
+    margin: 80px 0px 70px 20px;
     overflow-x: hidden;
     display: flex;
 }
@@ -182,6 +199,25 @@ p.missout{
    
 }  
 
+.socials{
+    margin: 0 0 15px 15px;
+    color: rgb(98, 98, 98);
+}
+.links{
+    color: rgb(98, 98, 98);
+    margin: 0 0 0 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.ftr{
+    text-align: left;
+    margin: 5px;
+}
+.bold{
+    font-weight: 600;
+}
+
+
 
 @media (max-width: 896px) {
     .menu {
@@ -192,6 +228,7 @@ p.missout{
 
     }
   }
+
 
 @media (min-width:896px) {
     .bars{
@@ -214,6 +251,7 @@ p.missout{
         
         margin: 50px 30px 30px 50px;
         padding: 40px;
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -225,5 +263,36 @@ p.missout{
     .container2{
         justify-content: space-between;
     }
+    @media (min-width:896px){
+    
+
+   .textbook1{
+       max-width: 300px;
+
+   }
+   .auction{
+       margin: 0 20px 0 20px;
+   }
+   .container2{
+       margin: 0 30px 0 30px;
+   }
+    footer{
+        margin: 0 20px 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .links{
+        display: flex;
+        margin: 20px;
+    }
+    .ftr{
+        margin: 30px;
+    }
+  
+    }
+
+   
+   
 
 
