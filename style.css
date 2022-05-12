@@ -105,8 +105,48 @@ p.missout{
 }
 
 
+.brands{
+    margin: 20px 0 0 0;
+    padding: 20px;
+    max-width: 896px;
 
 
+}
+img.brands{
+    max-width: 50px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.we{
+    color: rgb(98, 98, 98);
+}
+.nfts{
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+ 
+}
+.nft{
+    
+    margin: 10px;
+    border-radius: 7%;
+    background-color: rgb(209, 209, 209);
+    width: 290px;
+}
+
+.nftxt{
+    padding: 10px;
+    width: 100%;
+    text-align:justify
+    
+}
+.gs{
+    color: rgb(250, 150, 0);
+    font-weight: 300;
+}
 
 
 @media (max-width: 896px) {
@@ -131,6 +171,8 @@ p.missout{
         height: 500px;
         position:relative;
     }
-    
+    .nfts{
+        justify-content: space-between;
+    }
 
 }
